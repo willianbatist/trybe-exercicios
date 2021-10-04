@@ -1,6 +1,6 @@
 # Bloco 3 - Introdução à HTML e CSS
 
-Aqui se aprende a como estruturar páginas HTML estilizadas com o CSS de uma forma muito prática e criando vários projetos. Para isso, o conteúdo é dividido em quatro partes:
+#### Aqui se aprende a como estruturar páginas HTML estilizadas com o CSS de uma forma muito prática e criando vários projetos. Para isso, o conteúdo é dividido em quatro partes:
 
 Primeiro aprender a usar as principais tags do HTML para criar a estrutura das páginas web.
 
