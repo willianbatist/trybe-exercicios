@@ -21,6 +21,7 @@ Até agora, foi aprendido como navegar no seu ambiente de desenvolvimento, como 
 ###### Atividades
 
 1. Resultado da Primeira atividade no script.js.
+
    Criar estruturas condicionais com operadores if/else e operadores lógicos será algo muito comum na sua carreira de pessoa desenvolvedora. Então vamos praticar o que aprendemos no vídeo?
 
     Crie uma constante que receba a nota de uma pessoa candidata em um desafio técnico, e atribua a ela um valor entre 1 e 100;
@@ -33,4 +34,3 @@ Até agora, foi aprendido como navegar no seu ambiente de desenvolvimento, como 
     Crie uma estrutura condicional utilizando o if , else if e else para criar o seu algoritmo, e os operadores lógicos que se aplicam a cada situação.
 
     Altere o valor da nota para verificar se as condições que você implementou funcionam;
-     
