@@ -22,7 +22,7 @@ Até agora, foi aprendido como navegar no seu ambiente de desenvolvimento, como 
 
 1. Resultado das Primeira atividade Assíncrona desenvolvida durantas as aulas no script.js, script2, script3 e script4.
 
-#### Exercícios
+## Exercícios
 
 1. Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b , definidas no começo com os valores que serão operados. Faça programas para:
 
