@@ -18,53 +18,18 @@ Até agora, foi aprendido como navegar no seu ambiente de desenvolvimento, como 
     Operadores lógicos.
     Estruturas condicionais como if/else e switch/case.
 
-#### Atividades
+#### Atividades de fixação
 
-1. Resultado da Primeira atividade no script.js.
+1. Resultado das Primeira atividade Assíncrona desenvolvida durantas as aulas no script.js, script2, script3 e script4.
 
-   Criar estruturas condicionais com operadores if/else e operadores lógicos será algo muito comum na sua carreira de pessoa desenvolvedora. Então vamos praticar o que aprendemos no vídeo?
+#### Exercícios
 
-    Crie uma constante que receba a nota de uma pessoa candidata em um desafio técnico, e atribua a ela um valor entre 1 e 100;
+1. Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b , definidas no começo com os valores que serão operados. Faça programas para:
 
-    Implemente uma lógica que verifique se a pessoa candidata foi aprovada, reprovada ou se ela está na lista de espera. Para isso, considere as seguintes informações:
+    Adição (a + b)
+    Subtração (a - b)
+    Multiplicação (a * b)
+    Divisão (a / b)
+    Módulo (a % b)
 
-    Se a nota for maior ou igual a 80, imprima "Parabéns, você foi aprovada(o)!"
-    Se a nota for menor que 80 e maior ou igual a 60, imprima "Você está na nossa lista de espera"
-    Se a nota for menor que 60, imprima "Você foi reprovada(o)"
-    Crie uma estrutura condicional utilizando o if , else if e else para criar o seu algoritmo, e os operadores lógicos que se aplicam a cada situação.
-
-    Altere o valor da nota para verificar se as condições que você implementou funcionam;
-
-2. Resultado no script2.js da segunda atividade de fixação operador AND.
-
-    Crie uma constante chamada "currentHour" que recebe um número entre 4 e 24 de sua escolha, para representar as horas do dia.
-
-    Crie uma variável chamada "message" que, inicialmente, é uma string vazia
-
-    Implemente condicionais para que:
-
-    Se o horário for maior ou igual a 22, insira "Não deveríamos comer nada, é hora de dormir" na variável "message".
-
-    Se o horário for maior ou igual a 18 e menor que 22, insira "Rango da noite, vamos jantar :D" na variável "message".
-
-    Se o horário for maior ou igual a 14 e menor que 18, insira "Vamos fazer um bolo pro café da tarde?" na variável "message".
-
-    Se o horário estiver entre 11 e 14, insira "Hora do almoço!!!" na variável "message".
-
-    Se o horário estiver entre 4 e 11, insira "Hmmm, cheiro de café recém passado" na variável "message".
-
-    Agora imprima a variável message fora das suas condições.
-
-3. Resultado no script3.js, terceira atividade de fixação operador OR.
-
-    Crie uma variável chamada "weekDay" que recebe a string "quarta-feira".
-
-    Implemente condicionais para que:
-
-    Se nossa variável "weekDay" for "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira" ou "sexta-feira", imprima "Oba, mais um dia de aprendizado na Trybe >:D".
-
-    Se for algum dia de fim de semana, imprima "FINALMENTE, descanso merecido UwU".
-
-    Experimente trocar o valor da string ou até mesmo montar seu próprio algoritmo. Esse assunto é muito importante para seu aprendizado :).
-
-4. script4.js Utilização do Switch case na pratica.
+2.
