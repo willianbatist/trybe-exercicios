@@ -12,6 +12,4 @@ function aparecerEstados() {
     }
 
 }
-aparecerEstados()
-
-console.log()
+aparecerEstados();
