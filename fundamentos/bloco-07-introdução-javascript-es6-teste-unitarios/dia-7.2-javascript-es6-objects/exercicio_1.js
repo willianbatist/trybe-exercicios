@@ -50,15 +50,25 @@ const customerInfo = (order) => {
   return order;
 };
 
-// customerInfo(order);
+customerInfo(order);
 
 // "Olá Luiz Silva, o total do seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$ 50,00."
 // Modifique o nome da pessoa compradora.
 // Modifique o valor total da compra para R$ 50,00.
+order.name = 'Luiz Silva';
+const valorTotal = Object.values(order)[4];
+valorTotal.total = 50;
+const luizSilva = Object.values(order)[0];
+const pizzas = Object.values(deliveryPizzas)[0];
+const marguerita = Object.keys(pizzas)[0];
+const pepperoni = Object.keys(pizzas)[1];
+const bedida = Object.values(deliveryPizzas)[1];
+const type = Object.values(bedida)[0];
+const cocaCola = Object.values(type)[0];
 
-console.log();
 const orderModifier = (order) => {
-  // Adicione abaixo as informações necessárias.
+  order = console.log(`"Olá ${luizSilva}, o total do seu pedido de ${marguerita}, ${pepperoni} e ${cocaCola} é R$ ${valorTotal.total = 50}"`);
+  return order
 };
 
 orderModifier(order);
