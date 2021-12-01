@@ -1,8 +1,6 @@
 const apiUrl = 'https://api.coincap.io/v2/assets';
 const ul = document.querySelector('#ol-lista');
 
-
-
 function fetchCoin () {
 
     fetch(apiUrl)
