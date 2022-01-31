@@ -72,23 +72,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 9: JavaScript e Testes Assíncronos;
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
-- [x] 9-2: _JavaScript Promises_
-- [x] 9-3: _[Projeto - Carrinho de Compras]()_
+- [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [x] 9-3: _Jest - Testes Assíncronos_
+- [x] 9-4: _[Projeto - Carrinho de Compras](https://github.com/willianbatist/project-shopping-cart)_
 
-##### Bloco 10: Jest
-
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução - React
+##### Bloco 10: Introdução à React
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [x] 11-1: _'Hello, world!' no React!_
+- [x] 11-2: _Componentes React_
+- [x] 11-3: _[Solar System](https://github.com/willianbatist/project-react-solar-system)_
 
 ##### Bloco 12: React
 
