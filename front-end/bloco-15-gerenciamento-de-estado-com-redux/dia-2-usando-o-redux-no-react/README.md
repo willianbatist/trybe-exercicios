@@ -39,7 +39,8 @@ Aprender a utilizar o Redux em suas aplicações React:
 *Criar dentro do diretório store:*
 - [ ] arquivo index.js.
 
-*No arquivo App.js:*
+*No arquivo App.js ou index.js o que tem o document.getElementById('root'):*
+- [ ] import { Provider } from 'react-redux';
 - [ ] definir o Provider, `<Provider store={ store }>`, para fornecer os estados à todos os componentes encapsulados em `<App />`.
 
 *No arquivo store/index.js:*
