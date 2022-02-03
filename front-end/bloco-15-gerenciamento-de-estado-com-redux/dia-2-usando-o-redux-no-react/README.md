@@ -16,12 +16,13 @@ Aprender a utilizar o Redux em suas aplicações React:
 ## Checklist do react-redux
 
 *Antes de começar*
-- [ ] pensar como será o *formato* do seu estado global
-- [ ] pensar quais actions serão necessárias na sua aplicação
+- pensar como será o *formato* do seu estado global
+- pensar quais actions serão necessárias na sua aplicação
 
 *Instalação*
 - [ ] npx create-react-app my-app-redux;
 - [ ] npm install --save redux react-redux;
+- [ ] npm install --save redux-devtools-extension
 - [ ] npm install.
 
 *Criar dentro do diretório src:*
@@ -44,6 +45,7 @@ Aprender a utilizar o Redux em suas aplicações React:
 *No arquivo store/index.js:*
 - [ ] importar o rootReducer e criar a store
 - [ ] configurar o [Redux DevTools](https://github.com/reduxjs/redux-devtools)
+- [ ] import { composeWithDevTools } from 'redux-devtools-extension';
 
 *Na pasta reducers:*
 - [ ] criar os reducers necessários
@@ -57,3 +59,16 @@ Aprender a utilizar o Redux em suas aplicações React:
 - [ ] criar a função mapStateToProps
 - [ ] criar a função mapDispatchToProps
 - [ ] fazer o connect
+
+### Se a sua aplicação não terá outras páginas, não é necessário configurar as rotas. Caso contrário:
+
+- [ ] npm install react-router-dom@v5;
+
+*Em src/index.js:*
+
+- [ ] definir o BrowserRouter, <BrowserRouter> .
+
+*No arquivo App.js:*
+    
+- [ ] definir o Switch, <Switch> ;
+- [ ] definir a Route, <Route>.
