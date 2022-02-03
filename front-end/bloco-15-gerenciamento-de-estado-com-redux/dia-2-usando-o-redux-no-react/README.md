@@ -20,7 +20,7 @@ Aprender a utilizar o Redux em suas aplicações React:
 - pensar quais actions serão necessárias na sua aplicação
 
 *Instalação*
-- [] npx create-react-app my-app-redux;
+- [ ] npx create-react-app my-app-redux;
 - [ ] npm install --save redux react-redux;
 - [ ] npm install --save redux-devtools-extension
 - [ ] npm install.
