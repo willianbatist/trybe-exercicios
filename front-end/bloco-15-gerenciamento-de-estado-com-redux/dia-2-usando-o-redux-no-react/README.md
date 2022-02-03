@@ -2,15 +2,15 @@
 
 Aprender a utilizar o Redux em suas aplicações React:
 
-    - Criar um store Redux em aplicações React;
+    Criar um store Redux em aplicações React;
 
-    - Criar reducers no Redux em aplicações React;
+    Criar reducers no Redux em aplicações React;
 
-    - Criar actions no Redux em aplicações React;
+    Criar actions no Redux em aplicações React;
 
-    - Criar dispatchers no Redux em aplicações React;
+    Criar dispatchers no Redux em aplicações React;
 
-    - Conectar Redux aos componentes React.
+    Conectar Redux aos componentes React.
     
     
 ## Checklist do react-redux
