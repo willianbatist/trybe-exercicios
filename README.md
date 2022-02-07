@@ -1,6 +1,8 @@
 # Trybe
 
-Este repositório contem todas as atividades de aprendizagem desenvolvidas por _[Willian Alves Batista](https://www.linkedin.com/in/willian-alves-batista/)_ enquanto estudante da [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contem todas as atividades de aprendizagem desenvolvidas por <a href="https://www.linkedin.com/in/willian-alves-batista/" target="_blank">Willian Alves Batista</a> 
+
+_[Willian Alves Batista](https://www.linkedin.com/in/willian-alves-batista/)_ enquanto estudante da [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
