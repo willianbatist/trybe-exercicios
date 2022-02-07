@@ -26,50 +26,50 @@ Aprender a utilizar o Redux em suas aplicações React:
 - [x] npm install.
 
 *Criar dentro do diretório src:*
-- [ ] diretório actions;
-- [ ] diretório reducers;
-- [ ] diretório store.
+- [x] diretório actions;
+- [x] diretório reducers;
+- [x] diretório store.
 
 *Criar dentro do diretório actions:*
-- [ ] arquivo index.js.
+- [x] arquivo index.js.
 
 *Criar dentro do diretório reducers:*
-- [ ] arquivo index.js.
+- [x] arquivo index.js.
 
 *Criar dentro do diretório store:*
-- [ ] arquivo index.js.
+- [x] arquivo index.js.
 
 *No arquivo App.js ou index.js o que tem o document.getElementById('root'):*
-- [ ] import { Provider } from 'react-redux';
-- [ ] definir o Provider, `<Provider store={ store }>`, para fornecer os estados à todos os componentes encapsulados em `<App />`.
+- [x] import { Provider } from 'react-redux';
+- [x] definir o Provider, `<Provider store={ store }>`, para fornecer os estados à todos os componentes encapsulados em `<App />`.
 
 *No arquivo store/index.js:*
-- [ ] importar o rootReducer e criar a store
-- [ ] configurar o [Redux DevTools](https://github.com/reduxjs/redux-devtools)
-- [ ] import { composeWithDevTools } from 'redux-devtools-extension';
+- [x] importar o rootReducer e criar a store
+- [x] configurar o [Redux DevTools](https://github.com/reduxjs/redux-devtools)
+- [x] import { composeWithDevTools } from 'redux-devtools-extension';
 
 *Na pasta reducers:*
-- [ ] criar os reducers necessários
-- [ ] configurar os exports do arquivo index.js
+- [x] criar os reducers necessários
+- [x] configurar os exports do arquivo index.js
  
 *Na pasta actions:*
-- [ ] criar os actionTypes, por exemplo: `const ADD_TO_CART = 'ADD_TO_CART';`
-- [ ] criar os actions creators necessários
+- [x] criar os actionTypes, por exemplo: `const ADD_TO_CART = 'ADD_TO_CART';`
+- [x] criar os actions creators necessários
 
 *Nos componentes:*
-- [ ] criar a função mapStateToProps
-- [ ] criar a função mapDispatchToProps
-- [ ] fazer o connect
+- [x] criar a função mapStateToProps
+- [x] criar a função mapDispatchToProps
+- [x] fazer o connect
 
 ### Se a sua aplicação não terá outras páginas, não é necessário configurar as rotas. Caso contrário:
 
-- [ ] npm install react-router-dom@v5;
+- [x] npm install react-router-dom@v5;
 
 *Em src/index.js:*
 
-- [ ] definir o BrowserRouter, <BrowserRouter> .
+- [x] definir o BrowserRouter, <BrowserRouter> .
 
 *No arquivo App.js:*
     
-- [ ] definir o Switch, <Switch> ;
-- [ ] definir a Route, <Route>.
+- [x] definir o Switch, <Switch> ;
+- [x] definir a Route, <Route>.
