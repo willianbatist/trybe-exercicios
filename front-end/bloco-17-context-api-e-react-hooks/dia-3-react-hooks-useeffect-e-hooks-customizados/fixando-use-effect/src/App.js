@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
 function App() {
-  const [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(1);
   const [alert, setAlert] = useState('');
+  const [id, setId] = useState(0);
   function getRandomInt() {
     let min = Math.ceil(1);
     let max = Math.floor(100);
@@ -16,13 +17,19 @@ function App() {
   };
 
   useEffect(() => {
-    setInterval(getRandomInt, 1000);
+    setId(setInterval(getRandomInt, 1000));
   }, []);
 
   useEffect(() => {
     handleMultipleThreeFive();
   });
 
+  useEffect(() => {
+    if(alert === 'ACERTOU') {
+      return clearInterval(id)
+    }
+  })
+  
   return (
     <div>
       <p>{ number }</p>
