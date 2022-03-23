@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciéncia da computação, engenharia de software, metodologias Àgeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell
 
@@ -77,7 +77,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 9-4: _[Projeto - Carrinho de Compras](https://github.com/willianbatist/project-shopping-cart)_
 
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :heavy_check_mark:
 
 ##### Bloco 10: Introdução à React
 
@@ -109,46 +109,45 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 14-3: _RTL - Testando React Router_
 - [x] 14-4: _[Projeto - Testes em React](https://github.com/willianbatist/project-react-testing-library/tree/main)_
 
-##### Bloco 16: Introdução ao Redux
+##### Bloco 15: Introdução ao Redux
 
 - [x] 15-1: _Introdução ao Redux_
 - [x] 15-2: _React com Redux - Parte 1_
 - [x] 15-3: _React com Redux - Prática_
-- [x] 15-4: _React com Redux - Parte 2_
-- [x] 15-5: _Testes síncronos com React-Redux_
-- [x] 15-6: _[Projeto - Tabela com filtros de dados]()_
+- [x] 15-4: _React com Redux - Actions Assíncronas_
+- [x] 15-5: _Testes com React-Redux_
+- [x] 15-6: _Projeto - Trybe Wallet_
 
-##### Bloco 17: Projeto React
+##### Bloco 16: Projeto React
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [x] 16-1: _[Projeto - Jogo de Trivia](https://github.com/willianbatist/project-game-trivia)_
 
-##### Bloco 18: React & Context API
+##### Bloco 17: React & Context API
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 17-1: _Context API do React_
+- [x] 17-2: _React Hooks - useState e useContext_
+- [x] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
-##### Bloco 19: Projeto Final de Front-end
+##### Bloco 18: Projeto Final de Front-end
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- [x] 18-1: _[Projeto - App de Receitas](https://github.com/willianbatist/project-app-recipes)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+##### Bloco 19: Docker - Utilizando Containers
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especÃ­fica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [x] 19-1: _Utilizando Containers_
+- [x] 19-2: _Manipulaçao e Criação de Imagens no Docker_
+- [x] 19-3: _Orquestrando Containers com Docker Compose_
+- [x] 19-4: _[Projeto - Docker Todo-List]()_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 20: Bancos de dados relacionais
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [ ] 20-1: _Funções mais usadas no SQL_
+- [ ] 20-2: _Descomplicando JOINs e UNIONs_
+- [ ] 20-3: _Stored Routines & Subqueries_
+- [ ] 20-4: _[Projeto - Vocabulary Booster]()_
 
 ##### Bloco 22: Bancos de dados relacionais
 
