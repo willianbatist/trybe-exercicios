@@ -67,9 +67,15 @@
         [firstName, middleName, lastName],
     );
 
+    const removeUser = async (firstName) => connection.execute(
+            'DELETE FROM model_example.authors WHERE first_name = ?',
+            [firstName],
+        );
+
     module.exports = {
         getAll,
         findById,
         isValid,
         create,
+        removeUser,
     };

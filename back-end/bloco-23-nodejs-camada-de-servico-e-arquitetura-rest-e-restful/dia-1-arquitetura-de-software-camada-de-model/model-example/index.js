@@ -34,7 +34,13 @@
         res.status(201).json({ message: 'Autor criado com sucesso! '});
     });
 
-    const PORT = process.env.PORT || 3002;
+    app.delete('/authors', async (req, res) => {
+        const { first_name } = req.body;
+        await Author.removeUser(first_name);
+        res.status(201).json({ message: 'Autor removido com sucesso! '});
+    });
+
+    const PORT = process.env.PORT || 3001;
 
     app.listen(PORT, () => {
         console.log(`Ouvindo a porta ${PORT}`);
