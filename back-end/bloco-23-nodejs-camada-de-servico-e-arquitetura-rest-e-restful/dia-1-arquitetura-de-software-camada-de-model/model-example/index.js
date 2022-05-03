@@ -40,6 +40,12 @@
         res.status(201).json({ message: 'Autor removido com sucesso! '});
     });
 
+    app.put('/authors', async (req, res) => {
+        const { first_name } = req.body;
+        await Author.update(first_name);
+        return res.status(201).json({ message: 'Autor atualizado com sucesso! '});
+    });
+
     const PORT = process.env.PORT || 3001;
 
     app.listen(PORT, () => {

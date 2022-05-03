@@ -72,10 +72,16 @@
             [firstName],
         );
 
+    const update = async (firstName) => connection.execute(
+        'UPDATE model_example.authors SET first_name = "Willian" WHERE first_name = (?)',
+        [firstName],
+    );
+
     module.exports = {
         getAll,
         findById,
         isValid,
         create,
         removeUser,
+        update,
     };
