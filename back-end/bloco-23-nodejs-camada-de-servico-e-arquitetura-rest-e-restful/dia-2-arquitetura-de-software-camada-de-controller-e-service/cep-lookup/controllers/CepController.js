@@ -1,7 +1,7 @@
 // controllers/CepController.js
 
 const rescue = require('express-rescue');
-const service = require('../services/CepService');
+const service = require('../services/Cep');
 
 const findAddressByCep = rescue(async (req, res, next) => {
   const { cep } = req.params;
