@@ -1,8 +1,12 @@
+const sinon = require('sinon');
 const { expect } = require('chai');
 
-const MoviesService = {
-  create: () => {},
-};
+const MoviesModel = require('../../models/movieModel');
+const MoviesService = require('../../services/movieService');
+
+// const MoviesService = {
+//   create: () => {},
+// };
 
 /*
   Precisamos validar se estamos recebendo todos os campos
@@ -34,6 +38,18 @@ describe('Insere um novo filme no BD', () => {
       releaseYear: 1999,
     };
 
+    before(() => {
+      const ID_EXAMPLE = 1;
+
+      sinon.stub(MoviesModel, 'create')
+        .resolves({ id: ID_EXAMPLE });
+    });
+
+    // Restauraremos a função `create` original após os testes.
+    after(() => {
+      MoviesModel.create.restore();
+    });
+    
     it('retorna um objeto', async () => {
       const response = await MoviesService.create(payloadMovie);
 
