@@ -20,6 +20,10 @@ class BookService {
     const book = await this.model.getById(id);
     return book;
   }
+
+  public create(book: Book): Promise<Book> {
+    return this.model.create(book);
+  }
 }
 
 export default BookService;
